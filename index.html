@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PDF/URL to MP4 Converter</title>
+    </head>
+    <body>
+      <h1>PDF/URL to MP4 Converter</h1>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <label for="pdfFile">Upload PDF:</label>
+        <input type="file" id="pdfFile" name="pdfFile" accept=".pdf"><br><br>
+        <label for="urlInput">Or enter URL:</label>
+        <input type="text" id="urlInput" name="urlInput"><br><br>
+        <label for="mp4File">Upload MP4:</label>
+        <input type="file" id="mp4File" name="mp4File" accept=".mp4"><br><br>
+        <button type="submit">Convert</button>
+      </form>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    </html>
